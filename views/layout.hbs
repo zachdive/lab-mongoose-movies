@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>{{title}}</title>
-  <link rel="stylesheet" href="/stylesheets/style.css" />
-</head>
-<body>
 
-  {{{body}}}
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>{{title}}</title>
+      <link rel="stylesheet" href="/stylesheets/style.css" />
+   </head>
 
-  <script src="/javascripts/script.js"></script>
-</body>
+   <body>
+       <nav>
+    <input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			     <i class="fas fa-bars"></i>
+		</label>
+		<label class="logo">CelebrityDB</label>
+      <ul>
+        <li> 
+          <a href = "/celebrities">Celebrity List</a> 
+        </li>
+        <li>
+           <a href = "/create-celebrity">Add a New Celebrity</a> 
+        </li>
+        
+     </ul>
+
+ </nav>
+
+      {{{body}}}
+
+      <script src="/js/script.js"></script>
+   </body>
+
 </html>
